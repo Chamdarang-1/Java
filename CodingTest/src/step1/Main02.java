@@ -14,6 +14,7 @@ public class Main02 { // 제출할때는 main class 이름 변경
 		// System.out.println("b : " + b);
 		
 		System.out.println(a+b);
+		sc.close();
 	}
 
 }

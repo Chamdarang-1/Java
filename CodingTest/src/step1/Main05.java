@@ -11,6 +11,7 @@ public class Main05 {
 		
 		System.out.println(A/B);
 		
+		sc.close();
 	}
 
 }

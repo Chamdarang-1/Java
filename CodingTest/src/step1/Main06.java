@@ -13,6 +13,8 @@ public class Main06 {
 		System.out.println(A*B);
 		System.out.println(A/B);
 		System.out.println(A%B);
+		
+		sc.close();
 	}
 
 }
