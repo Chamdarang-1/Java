@@ -28,9 +28,5 @@ public class Car {
 		System.out.println("현재 속도 : " + speed);
 		
 // 추상화한 클래스를 객체로 만들 거임 ㅇㅇ
-		
-		
-		
-		
 	}
 }
