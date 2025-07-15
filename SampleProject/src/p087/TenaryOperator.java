@@ -1,4 +1,4 @@
-package p87;
+package p087;
 
 public class TenaryOperator {
 	public static void main(String[] args) {

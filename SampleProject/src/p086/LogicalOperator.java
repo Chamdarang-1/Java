@@ -1,4 +1,4 @@
-package p86;
+package p086;
 
 public class LogicalOperator {
 	public static void main(String[] args) {

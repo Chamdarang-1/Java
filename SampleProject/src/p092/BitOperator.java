@@ -1,4 +1,4 @@
-package p92;
+package p092;
 
 public class BitOperator {
 	

@@ -1,4 +1,4 @@
-package p96;
+package p096;
 
 import java.util.Scanner;
 

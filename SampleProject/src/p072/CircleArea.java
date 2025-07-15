@@ -1,4 +1,4 @@
-package p72;
+package p072;
 
 public class CircleArea {
 	public static void main(String[] args) {

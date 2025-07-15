@@ -1,4 +1,4 @@
-package p79;
+package p079;
 
 import java.util.Scanner;
 

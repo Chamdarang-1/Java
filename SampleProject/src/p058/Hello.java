@@ -3,7 +3,7 @@
  */
 
 
-package p58;
+package p058;
 
 public class Hello {
 	
