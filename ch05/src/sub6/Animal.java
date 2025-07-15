@@ -1,0 +1,11 @@
+package sub6;
+
+public class Animal {
+	
+	public void move() {
+		System.out.println("Animal move...");
+		
+	}
+	// 오버라이드를 위한 메서드이기 때문에 내용은 필요하지 않다.
+	public void hunt() {}
+}
