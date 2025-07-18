@@ -28,7 +28,7 @@ public void enrollSubject(Subject subject) {
 	// 쉽게 생각해보면 수강신청을 한다는 것은, 현재 값이 0(False)인 수십 가지의 강의 목록이 있다고 가정한다면, 
 	// 신청했을 때 현재 값이 1(True)로 바뀌는 것과 같다.
 	subject.addStudent(this);
-	System.out.println(this.name + " - " + subject.getName() +" 과목 신청완료");
+	System.out.println(this.getName + " - " + subject.getName() +" 과목 신청완료");
 	//this.subject[0]을 해서 객체(Subject의 객체인 subjects[1]) 자체를 출력하면 주소처럼 생긴 문자열이 나온다.
 	//따라서 Subject 객체에서 과목 이름을 직접 꺼내 써야한다.
 	
@@ -42,7 +42,15 @@ public void setScore(Subject subject, int scores) {
 	
 }
 
-public void printStudentInfo() {}
+public void printStudentInfo() {
+	System.out.println("학생명 : " + this.getName());
+	System.out.println("아이디 : " + this.studentId);
+	System.out.println("성적");
+	
+	for(int i = 0; i<this.subjectCount; i++) {
+	System.out.println(" - " + this.subjects[i].getName() + " : " + this.scores[i]);
+	}
+}
 
 public String getName() {
 	return this.name;

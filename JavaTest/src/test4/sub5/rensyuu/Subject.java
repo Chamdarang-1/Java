@@ -20,12 +20,12 @@ public void printSubjectInfo() {
 	System.out.println("과목명 : " + this.subName);
 	
 	System.out.print("수강생 : " );
-	for(int i = 0; i<this.studentCount ; i++) {
+	for(int i = 0; i<this.studentCount ; i++) 
 		
 		System.out.print(this.students[i].getName()+ ", ");
 	
 	System.out.println();
-	}
+	
 }
 
 public String getName() {

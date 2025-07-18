@@ -33,6 +33,12 @@ public class Main {
 		
 		database.printSubjectInfo();
 		System.out.println("-----------------------------------");
+		
+		student1.printStudentInfo();
+		System.out.println("-----------------------------------");
+		
+		student2.printStudentInfo();
+		System.out.println("-----------------------------------");
 	}
 
 }
