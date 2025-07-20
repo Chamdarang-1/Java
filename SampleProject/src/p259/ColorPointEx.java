@@ -25,7 +25,7 @@ public class ColorPointEx {
 		p.set(1, 22);
 		p.showPoint();
 		
-		ColorPointEx cp = new ColorPointEx();
+		ColorPoint cp = new ColorPoint();
 		cp.set(3, 4);
 		cp.setColor("red");
 		cp.showColorPoint();

@@ -12,7 +12,8 @@ public Subject (String subName) {
 }
 public void addStudent(Student student) {
 	students[studentCount++] = student;
-	System.out.println(this.students + " - " + this.subName + " 과목 신청완료");
+	// 이런 코드를 사요했으면~ getter 을 활용해야 한다.
+	//System.out.println(student.getName() + " - " + this.subName + " 과목 신청완료");
 }
 
 
