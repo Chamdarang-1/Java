@@ -5,7 +5,7 @@ public class Test04 {
 	public static void main(String[] args) {
 		String fileName = "HelloWorld.java";
 		
-		int idx = fileName.?;
+		int idx = fileName.indexOf();
 		
 		String title = fileName.??;
 		String ext 	= fileName.??;
@@ -16,7 +16,7 @@ public class Test04 {
 		String	strScores= "60, 72, 82 ,86, 92";
 		String[] scores = strScores.??;
 		
-		int totla = 0;
+		int total = 0;
 		
 		for(String score : scores) {
 			total+=Integer.parseInt(score);
