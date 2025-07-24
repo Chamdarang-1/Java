@@ -1,10 +1,24 @@
 package test5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Member{
 	String id;
 	String name;
-	int age
+	int age;
 	
+	public Member(String id, String name, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
 	
 }
 
@@ -12,16 +26,16 @@ class Member{
 public class Test08 {
 	public static void main(String[] args) {
 		
-		Memeber m1 = new Member("a101", "김유신", 23);
-		Memeber m2 = new Member("a102", "김춘추", 21);
-		Memeber m3 = new Member("a103", "장보고", 33);
+		Member m1 = new Member("a101", "김유신", 23);
+		Member m2 = new Member("a102", "김춘추", 21);
+		Member m3 = new Member("a103", "장보고", 33);
 		
-		?? memberList = new ArrayList<>();
+		List<Member> memberList = new ArrayList<>();
 		memberList.add(m1);
 		memberList.add(m2);
 		memberList.add(m3);
 		
-		for(??) {
+		for(Member m : memberList) {
 			System.out.println(m);
 		}
 	}

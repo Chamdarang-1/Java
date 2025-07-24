@@ -22,13 +22,14 @@ public class Test01 {
 				
 				if(input<0) {
 					throw new Exception("음수는 입력할 수 없습니다.");
+					// throws는 메서드에 쓰는 거임
 				}
 			}catch (InputMismatchException e) {
 				System.out.println("숫자를 입력하세요.");
-				e.printStackTrace();
+				continue;
 			}catch (Exception e) {
 				System.out.println(e.getMessage());
-				e.printStackTrace();
+				continue;
 			}
 			
 			if(answer > input) {

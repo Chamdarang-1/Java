@@ -15,11 +15,11 @@ public class Test10 {
 			FileWriter fw = new FileWriter(file);
 			
 			for(int x=2 ; x<=0 ; x++) {
-				fw.??
+				fw.write(x + "단");
 						
 						for(int y=1 ; y<=9; y++) {
 							int z= x*y;
-							fw.??;
+							fw.write(x + "x" + y + " = " + z);
 							
 						}
 			}

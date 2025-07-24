@@ -1,5 +1,9 @@
 package test5;
 
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.Set;
+
 public class Test07 {
 	
 	public static void main(String[] args) {
@@ -9,15 +13,15 @@ public class Test07 {
 		}
 	}
 
-	??? makeLotto() {
+	public void Set<Integer> makeLotto() {
 		
-		?? lottoSet = new HashSet<>();
+		Set<Integer> lottoSet = new HashSet<>();
 		
 		for(;;) {
-			int num = (int) Math.ceil();
+			int num = (int) Math.ceil(Math.random() * 46);
 			lottoSet.add(num);
 			
-			if(???) {
+			if(lottoSet.size() == 6) {
 				break;
 			}
 		}
