@@ -30,7 +30,7 @@ class Student extends Person{
 	}
 }
 
-class SalaryStudent extends Person{
+class SalaryStudent extends Student{
 	private String job;
 
 	public SalaryStudent(String name, int age, String school, String job) {
@@ -47,7 +47,17 @@ class SalaryStudent extends Person{
 	
 }
 public class Test08 {
+	public static void main(String[] args) {
+		
+		Person kim = new Person("김유신", 24);
+		Student kang  = new Student("강감찬", 26,"부경대");
+		SalaryStudent lee = new SalaryStudent("이순신", 27, "부산대", "개발자");
 	
 	
-
+		 Person[] people = { kim, kang, lee };
+	
+		for(Person person : people) {
+			person.show();
+		}
+	}
 }
